@@ -10,6 +10,7 @@ public class blueSlime : MonoBehaviour
     {
         StartCoroutine(generateNumber());
     }
+    #change
     IEnumerator generateNumber()
     {
         yield return new WaitForSeconds(1);
