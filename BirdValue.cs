@@ -17,5 +17,5 @@ public class BirdValue : MonoBehaviour
         animator.SetFloat("bird", birdValue);
         StartCoroutine(generateBirdValue());
     }
-
+#change
 }
