@@ -10,14 +10,14 @@ public class blueSlime : MonoBehaviour
     {
         StartCoroutine(generateNumber());
     }
-    #change
+    //change
     IEnumerator generateNumber()
     {
         yield return new WaitForSeconds(1);
 
         number = Random.Range(1, 100);
         print(number);
-        if (number <= 20)
+        if (numb\|er <= 20)
         {
             animator.SetTrigger("bounce");
         }
